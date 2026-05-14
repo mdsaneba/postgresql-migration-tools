@@ -1,25 +1,30 @@
 # PostgreSQL Migration Tools
 
-Collection of tools and scripts for database migration to PostgreSQL.
+Tools and scripts for database migration to PostgreSQL.
 
 ## Supported migrations
 
-- Oracle → PostgreSQL
-- SQL Server → PostgreSQL
-- Sybase → PostgreSQL
+- Oracle to PostgreSQL
+- SQL Server to PostgreSQL
+- Sybase to PostgreSQL
 
-## Features
+## Main objectives
 
-- Migration assessment
-- Schema analysis
-- Compatibility checks
-- Ora2Pg helpers
-- PostgreSQL validation
+- Assess migration complexity
+- Identify compatibility issues
+- Estimate migration effort
+- Prepare PostgreSQL target architecture
+- Reduce migration risk
 
-## Technologies
+## Current tools
 
-- PostgreSQL
-- Ora2Pg
-- Bash
-- SQL
-- Python
+- migration-assessment-offer.md
+- migration_assessment.sh
+
+## Roadmap
+
+- Oracle object inventory
+- Ora2Pg report automation
+- PL/SQL complexity scoring
+- PostgreSQL validation scripts
+- Migration report generation
